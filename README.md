@@ -1,5 +1,6 @@
 # Zoonotic Forecast: A Data Science Approach to Predicting Viral Spillovers
 ![Summary image](https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20220615070525/ri/950/src/images/Article_Images/ImageForArticle_22674_16552911221244194.jpg)
+
 ## Summary
 The emergence of zoonotic diseases—illnesses transmitted from animals to humans—poses a serious threat to global health security. Recent outbreaks underscore the urgent need for predictive analytics to preempt viral spillovers. This capstone project leverages data science to map the historical incidence of zoonotic viruses and forecasts future risks. By understanding patterns of past outbreaks and integrating demographic changes, our analysis aims to pinpoint potential hotspots before they flare into human epidemics, aiding policymakers and health organizations in crafting proactive defenses.
 
@@ -89,11 +90,10 @@ We organize our workflow using GitHub Projects to get a high-level overview of p
 - Engage in peer code reviews constructively and respectfully.
 
 ## Contact Us
-If you have any questions or want to reach out, we are:
+If you have any questions, reach out to us at:
 
-[Samuel Buxton](sambux@umich.edu) and
-
-[Alex Levine](ajlev@umich.edu)
+- [Samuel Buxton](sambux@umich.edu)
+- [Alex Levine](ajlev@umich.edu)
 
 
 ![University of Michigan Logo](https://brand.umich.edu/assets/brand/style-guide/logo-guidelines/U-M_Logo-Horizontal-Hex.png)
