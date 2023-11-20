@@ -60,12 +60,14 @@ If you encounter a bug or want to suggest a feature, open an issue:
 ### Categorizing Issues
 
 **Assigning the Issue**
+
 Assign issues to specific individuals when you believe they are best suited to tackle the problem or when they are responsible for that aspect of the project:
 
 1. On the issue page, click on 'Assignees'.
 2. Choose a collaborator's name to assign the issue.
 
 **Milestones**
+
 Use milestones to group issues and pull requests into manageable phases or iterations of work:
 
 1. In the 'Issues' or 'Pull Requests' tab, click on the 'Milestone' button.
@@ -73,6 +75,7 @@ Use milestones to group issues and pull requests into manageable phases or itera
 3. You can set a deadline to a specific milestone as a reminder
 
 **Projects**
+
 We organize our workflow using GitHub Projects to get a high-level overview of progress. For this project we are using a typical project management board with categories "Blocked", "TODO", "In Progress" and "Done":
 
 1. In the GitHub repository, navigate to 'Projects' and select or create a new project.
@@ -81,6 +84,7 @@ We organize our workflow using GitHub Projects to get a high-level overview of p
 4. If you have a PR that closes an issue, put "This closes [link to issue]" so that when the PR is merged, it will automatically both close and categorize the issue as closed/done.
 
 **Best Practices**
+
 - Always pull the latest changes from the main branch before starting new work.
 - Keep commits small and focused; one feature or fix per commit.
 - Try to keep one PR per feature/issue. This makes them easier to review.
