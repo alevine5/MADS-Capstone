@@ -7,6 +7,54 @@ The emergence of zoonotic diseases—illnesses transmitted from animals to human
 ## Background Research
 Zoonotic pathogens have repeatedly blindsided the human population, with the 21st century witnessing escalations in both frequency and impact. A [notable study](https://pubmed.ncbi.nlm.nih.gov/18288193/) by the Zoological Society of London synthesized the global trends of emerging zoonoses, highlighting the role of wildlife as a reservoir. [Another pivotal work](https://pubmed.ncbi.nlm.nih.gov/18288193/) by the UCLA Department of Epidemiology provided a framework for predicting the origins of future zoonotic viruses. Despite these advancements, the field still requires a nuanced risk assessment tool that accounts for evolving human-animal interfaces. Our project builds on these foundations, employing machine learning to assess and forecast zoonotic risk with unprecedented precision.
 
+## Defining "Zoonotic"
+It can be a little tricky to understand what a zoonotic disease is. After all, many diseases originate from animals, but the primary way we transfer the disease is through other humans. Or, let's say an animal gets a fungal infection and then transfers it to a human. If humans can also get the fungal infection directly from eating a plant, is it really a zoonotic infection? A zoonotic infection, as we define it, is any disease that is naturally transmissible from vertebrate animals to humans. To clarify, we have provided a list of the diseases we are looking at and why they are zootopic diseases, as well as some examples of diseases that are NOT zoonotic.
+
+**Zoonotic diseases we are looking at**
+
+- Unspecified viral haemorrhagic fever - Many viral hemorrhagic fevers have zoonotic origins, such as Ebola and Marburg virus diseases.
+- Severe acute respiratory syndrome [SARS] - Caused by a coronavirus believed to have originated in bats.
+- Influenza due to identified zoonotic or pandemic influenza virus - Certain strains of influenza are zoonotic, such as the H5N1 avian flu.
+- Dengue, unspecified - Transmitted by mosquitoes, but the virus has a complex life cycle involving non-human primates.
+- Leishmaniasis, unspecified - Transmitted to humans by the bite of infected sandflies, with animals as reservoir hosts.
+- West Nile virus infection - Primarily a bird disease, but can be transmitted to humans by mosquitoes.
+- Plague, unspecified - Includes bubonic plague, which is typically transmitted from rodents to humans via flea bites.
+- Middle East respiratory syndrome coronavirus [MERS-CoV] - Believed to originate from bats and transmitted to humans via camels.
+- Yellow fever, unspecified - A mosquito-borne disease with primates as the primary reservoir.
+- Hantavirus (cardio-)pulmonary syndrome - Transmitted to humans through contact with rodent urine, droppings, or saliva.
+- Chikungunya virus disease - Transmitted to humans by mosquitoes.
+- Listeriosis, unspecified - Caused by bacteria commonly found in animals and animal products.
+- Legionnaires disease - Not typically considered zoonotic, but the bacteria can inhabit natural and artificial water systems, including those in close contact with animals.
+- Acute hepatitis A - Not typically zoonotic, but can be transmitted through food or water contaminated by infected animals.
+- Zika virus disease - Transmitted primarily by mosquitoes, but also found in non-human primates.
+- Lassa fever - Transmitted to humans through contact with food or household items contaminated with rodent urine or feces.
+- Acute hepatitis E - Can be zoonotic, typically through consumption of contaminated water or undercooked pork.
+- Monkeypox - Associated with rodents and primates in Africa and can be transmitted to humans.
+- Leptospirosis, unspecified - Caused by bacteria that can be carried in many animals, especially rodents.
+- Rift Valley fever - Affects livestock and can be transmitted to humans by mosquitoes or exposure to the blood of infected animals.
+- Ebola virus disease - Believed to originate from bats and transmitted to humans via contact with wild animals.
+- Marburg virus disease - Similar to Ebola, likely originates from bats.
+- Anthrax, unspecified - Caused by bacteria found naturally in soil and commonly affecting livestock.
+- Rabies, unspecified - Transmitted to humans through the bite of an infected animal, commonly dogs, bats, and wildlife.
+- Salmonella infection, unspecified - Often transmitted through contaminated food, including animal products.
+- Tularaemia, unspecified - Caused by bacteria found in various animals, particularly rodents and rabbits.
+- Venezuelan equine encephalitis - A mosquito-borne disease that primarily affects horses but can infect humans.
+- Coccidioidomycosis, unspecified - Fungal disease, not directly zoonotic but carried in dust from soils inhabited by animals.
+- Haemorrhagic fever with renal syndrome - Caused by hantaviruses which are primarily hosted by rodents.
+- St Louis encephalitis - A mosquito-borne disease; birds are the primary hosts.
+- Bubonic plague - As mentioned earlier, typically transmitted from rodents to humans via flea bites.
+- COVID-19, virus identified - Caused by the novel coronavirus SARS-CoV-2, believed to have a zoonotic origin.
+
+**Not Zoonotic**
+
+_Infectious Diseases_
+
+Many infectious diseases are transmitted from human to human, without an animal reservoir. Examples include measles, chickenpox, and many sexually transmitted infections.
+
+_Non-Infectious Diseases_
+
+These are diseases that are not caused by infectious agents and thus are not transmissible from animals or humans. They include most forms of cancer, heart disease, genetic disorders, and autoimmune diseases.
+
 ## Project Visualizations
 Visualizations crafted for this project will serve as a window into the progression of zoonotic diseases across the timeline of human history. They will depict the frequency, distribution, and trajectory of past outbreaks, converting complex data into a compelling narrative. The intent is to clarify the role of factors such as demographic shifts and economic developments in disease emergence. We will first use interactive geospatial heat maps to show the risk of this type of emergence over the years, as well as pointing out the major outbreaks of this nature that have occurred in the past. Then, we will use line graphs with confidence intervals to show the trends of the risk scores of each country. Through these visualizations, we aim to show the factors affecting disease emergence, guiding observers in recognizing patterns that signify potential threats.
 
