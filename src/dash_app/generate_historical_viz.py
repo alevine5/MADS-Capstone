@@ -1,3 +1,9 @@
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import ipywidgets as widgets
+from IPython.display import Image, display
+
 def generate_historical_viz(df, start=1709, end=2010, past_years=50, country_name="Name", duration=500):
     
     # Handle potential errors
