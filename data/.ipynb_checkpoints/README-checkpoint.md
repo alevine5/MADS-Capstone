@@ -37,4 +37,4 @@ This is a text file containing the summary found in [this paper](https://www.ncb
 - Years since country's last outbreak
 - Source (sometimes who reported the outbreak, sometimes the country in which it started)
 
-The summary text is not consistent in its formatting and the types of information that each entry contains, but it tells a compelling story over time that we decided to visualize for our report. We employed a rigorous data cleaning process to create the dataframe that can by found in Historical_Data_Cleaning.ipynb
+The summary text is not consistent in its formatting and the types of information that each entry contains, but it tells a compelling story over time that we decided to visualize for our report. We employed a rigorous data cleaning process to create the dataframe that can by found in Historical_Data_Cleaning.ipynb.

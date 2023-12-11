@@ -104,10 +104,10 @@ def generate_historical_viz(df, start=1709, end=2010, past_years=50, country_nam
 
     # Update layout properties
     fig.update_layout(
-        title_text=f"Major Zoonotic Outbreaks by Country: {start} - {end}",
-        title_font_size=30,
+        title_text=f"Countries Experiencing Zoonotic Outbreaks by Year: {start} - {end}",
+        title_font_size=24,
         title_x=.5,
-        title_y=.9,
+        title_y=.89,
         height=600,
         width=1000,
 
